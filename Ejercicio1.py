@@ -3,6 +3,7 @@ class Alumno():
   def __init__(self, nombre, nota):
     self.nombre = nombre
     self.nota = nota
+    print(f"El alumno {self.nombre} ha quedado registrado")
   
   def calificacion(self):
     if self.nota < 5:
@@ -12,8 +13,7 @@ class Alumno():
       
 if __name__ == "__main__":
   Alumno1 = Alumno("Manuel",7)
-  print(Alumno1)
-  Alumno2 = Alumno("Elena",4)
-  print(Alumno2)
   Alumno1.calificacion()
+  Alumno2 = Alumno("Diego",4)
   Alumno2.calificacion()
+  

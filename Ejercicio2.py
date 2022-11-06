@@ -1,4 +1,4 @@
-
+#Hacemos lo mismo que en el ejercicio anterior solo que añadimos la función __str__ para imprimir por pantalla la información de un objeto
 class Alumno():
   def __init__(self, nombre, nota):
     self.nombre = nombre
